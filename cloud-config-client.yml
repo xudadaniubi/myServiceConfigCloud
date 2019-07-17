@@ -1,7 +1,7 @@
 spring:
   application:
     name: test   #测试环境
-  profiles: eureka-cilent-test
+  profiles: eureka-config-cilent
 eureka:
   client:
     service-url:
@@ -14,7 +14,7 @@ server:
 spring:
   application:
     name: dev   #开发环境
-  profiles: eureka-cilent-dev
+  profiles: eureka-config-cilent
 eureka:
   client:
     service-url:
