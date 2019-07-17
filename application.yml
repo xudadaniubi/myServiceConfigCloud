@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev   #现在用的是dev的环境
+---
+spring:
+
+  profiles: dev #正式环境
+  application: 
+    name: microservicecloud-config-dev
+---
+spring:
+  profiles: test   #测试环境
+  application:
+    name: microservicecloud-config-test
